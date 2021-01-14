@@ -1,0 +1,64 @@
+.payment {
+  background-color: white;
+  text-shadow: 10px 10px 10px #aaa;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 0.625em;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__container > h1 a {
+  text-decoration: none;
+}
+
+.payment__section {
+  display: flex;
+  padding: 1.25em;
+  margin: 0 1.25em;
+  border-bottom: 1px solid lightgrey;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8;
+}
+
+.payment__details > form {
+  max-width: 25em;
+}
+
+.payment__details > h3 {
+  padding-bottom: 1.25em;
+}
+
+/*  10px = .625em 
+    20px = 1.25em
+    30px = 1.875em
+    40px = 2.50em
+*/
+
+.payment__details > form > div > button {
+  background: #f0c14b;
+  border-radius: 5px;
+  width: 100%;
+  height: 2.5em;
+  border: 1px solid;
+  font-weight: bolder;
+  margin-top: 0.625em;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  box-shadow: 10px 10px 10px #aaa;
+}
+
+.payment__details > h4 {
+  padding-bottom: 1.25em;
+}
